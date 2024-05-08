@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-900 tracking-wider tracking-normal">
+
+    <header class="bg-blue-500 text-white shadow-lg w-full">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a href="#" class="flex title-font font-medium items-center text-white mb-4 md:mb-0 hover:bg-blue-700 p-2 rounded hover:no-underline">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-700 rounded-full hover:bg-blue-700" viewBox="0 0 24 24">
+                    <path d="M21 16V8a2 2 0 00-2-2h-6l-2-2h-4l-2 2H3a2 2 0 00-2 2v8a2 2 0 002 2h6l2 2h4l2-2h6a2 2 0 002-2z"></path>
+                </svg>
+                <span class="ml-3 text-xl">Marketplace</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="#" class="mr-5 hover:bg-blue-700 hover:text-white p-2 rounded hover:no-underline">Home</a>
+                <a href="#" class="mr-5 hover:bg-blue-700 hover:text-white p-2 rounded hover:no-underline">About</a>
+                <a href="#" class="mr-5 hover:bg-blue-700 hover:text-white p-2 rounded hover:no-underline">Products</a>
+                <a href="#" class="mr-5 hover:bg-blue-700 hover:text-white p-2 rounded hover:no-underline">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="text-gray-700 body-font">
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+            <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+            <div class="text-center lg:w-2/3 w-full">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Unik, Modern, dan Terpercaya</h1>
+                <p class="mb-8 leading-relaxed">Cari dan temukan berbagai produk unik dan modern yang sesuai dengan kebutuhan Anda di marketplace kami.</p>
+                <div class="flex justify-center">
+                    <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Explore Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Furniture Items Section -->
+    <section class="bg-white py-8">
+        <div class="container mx-auto flex flex-wrap">
+            <!-- Item 1 -->
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="furniture">
+                    <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Kursi Kantor</h3>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Kursi Ergonomis Modern</h2>
+                    <p class="leading-relaxed text-base">Kursi nyaman dengan desain modern, cocok untuk kantor atau ruang kerja di rumah Anda.</p>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="furniture">
+                    <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Meja Makan</h3>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Meja Makan Kayu Solid</h2>
+                    <p class="leading-relaxed text-base">Meja makan dari kayu solid yang tahan lama dengan finishing halus, memberikan kesan alami dan hangat.</p>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="furniture">
+                    <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Lemari Pakaian</h3>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Lemari Pakaian Minimalis</h2>
+                    <p class="leading-relaxed text-base">Lemari pakaian dengan desain minimalis, menawarkan kapasitas penyimpanan yang besar dengan gaya modern.</p>
+                </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="furniture">
+                    <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Sofa</h3>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Sofa Sudut Nyaman</h2>
+                    <p class="leading-relaxed text-base">Sofa sudut yang nyaman dengan bantalan empuk, sempurna untuk ruang tamu atau ruang keluarga Anda.</p>
+                </div>
+            </div>
+            <!-- Item 1 -->
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="furniture">
+                    <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Kursi Kantor</h3>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Kursi Ergonomis Modern</h2>
+                    <p class="leading-relaxed text-base">Kursi nyaman dengan desain modern, cocok untuk kantor atau ruang kerja di rumah Anda.</p>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="furniture">
+                    <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Meja Makan</h3>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Meja Makan Kayu Solid</h2>
+                    <p class="leading-relaxed text-base">Meja makan dari kayu solid yang tahan lama dengan finishing halus, memberikan kesan alami dan hangat.</p>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="furniture">
+                    <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Lemari Pakaian</h3>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Lemari Pakaian Minimalis</h2>
+                    <p class="leading-relaxed text-base">Lemari pakaian dengan desain minimalis, menawarkan kapasitas penyimpanan yang besar dengan gaya modern.</p>
+                </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="furniture">
+                    <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Sofa</h3>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Sofa Sudut Nyaman</h2>
+                    <p class="leading-relaxed text-base">Sofa sudut yang nyaman dengan bantalan empuk, sempurna untuk ruang tamu atau ruang keluarga Anda.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Kelebihan Toko Section -->
+    <section class="bg-gray-100 py-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-4">Mengapa Memilih Kami?</h2>
+            <p class="mb-6">Temukan berbagai alasan mengapa toko kami adalah pilihan terbaik untuk kebutuhan furniture Anda.</p>
+            <!-- Slider Container -->
+            <div class="slider-container">
+                <div class="slide">
+                    <img src="https://dummyimage.com/600x400/000/fff&text=1" alt="Slide 1">
+                </div>
+                <div class="slide">
+                    <img src="https://dummyimage.com/600x400/000/fff&text=2" alt="Slide 2">
+                </div>
+                <div class="slide">
+                    <img src="https://dummyimage.com/600x400/000/fff&text=3" alt="Slide 3">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section bg-gray-200 py-8">
+        <div class="container mx-auto">
+            <h2 class="text-center text-2xl font-bold mb-6">Hubungi Kami</h2>
+            <form action="submit_form.php" method="POST" class="w-full max-w-lg mx-auto">
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                        <label for="name" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Nama</label>
+                        <input type="text" id="name" class="appearance-none block w-full bg-gray-100 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" placeholder="Nama Anda" required>
+                    </div>
+                    <div class="w-full md:w-1/2 px-3">
+                        <label for="email" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Email</label>
+                        <input type="email" id="email" class="appearance-none block w-full bg-gray-100 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" placeholder="email@example.com" required>
+                    </div>
+                </div>
+                <div class="w-full px-3">
+                    <label for="phone" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">No Telepon</label>
+                    <input type="text" id="phone" class="appearance-none block w-full bg-gray-100 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" placeholder="08123456789" required>
+                </div>
+                <div class="w-full px-3">
+                    <label for="message" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Pesan</label>
+                    <textarea id="message" class="appearance-none block w-full bg-gray-100 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" placeholder="Tulis pesan Anda di sini..." rows="4"></textarea>
+                </div>
+                <div class="w-full px-3 text-center">
+                    <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Kirim Pesan</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-gray-700 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 Marketplace —
+                <a class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@marketplace</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a class="text-gray-500">
+                    <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V4a2 2 0 00-2-2z"></path>
+                    </svg>
+                </a>
+                <a class="text-gray-500">
+                    <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("slide");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+
+document.querySelector('.prev').addEventListener('click', function() {
+    plusSlides(-1);
+});
+
+document.querySelector('.next').addEventListener('click', function() {
+    plusSlides(1);
+});
+</script>
+
